@@ -8,4 +8,23 @@ If you don't have one it'll prompt you to setup a free one.
 web site:
 https://myappcav20202020.herokuapp.com/predict
 
+Postman
+link: https://myappcav20202020.herokuapp.com/api?&sepal_length=5.0&sepal_width=4.0&petal_length=1.5&petal_width=2.0
+*configure: method POST-> body RAW -> Json
+
+example input:
+{
+    "sepal_length":5.0,
+    "sepal_width":4.2,
+    "petal_length":1.5,
+    "petal_width":5.5
+}
+
+output:
+
+{
+    "Prediction": "Iris-virginica"
+}
+
+
 
